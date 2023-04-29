@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -17,6 +18,7 @@ public class Main {
         curso2.setTitulo("Curso JS");
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
+
 
         // criação objeto mentoria1 classe mentoria
         Mentoria mentoria1 = new Mentoria();
@@ -39,6 +41,7 @@ public class Main {
         System.out.println();
         System.out.println(mentoria1);
         System.out.println(mentoria2);
+
 
 
 
